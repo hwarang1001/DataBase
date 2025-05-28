@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82DE55A1-0A68-3BD0-2DA4-411B0A1F998C" schemaObject="A601F1E1-4B5F-AF5F-3A5B-3E721395F14E" name="MEMBER">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>KIOSK</sourceObjSchema>
+<sourceObjName>MEMBER</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:49 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEMBER_ID" id="79306F03-27E5-D8F4-7E85-F23269965D52">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>MEMBER_ID</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_PW" id="D046B1F8-9505-DB0D-BB1A-984515070F64">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>MEMBER_PW</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUMBER_NAME" id="F667020A-20B4-BC00-6267-F46EC46034AC">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>MUMBER_NAME</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_PHONE" id="C967F58E-54C2-5999-F77E-FF63C3611E8D">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>MEMBER_PHONE</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_MANAGER" id="33508A3C-C1EB-B185-F136-DAD3AA26CB6A">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>MEMBER_MANAGER</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="417E8966-4D68-112E-8BDD-E41E554C8EF7" name="MEMBER_PK">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>KIOSK</sourceObjSchema>
+<sourceObjName>MEMBER_PK</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:51 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79306F03-27E5-D8F4-7E85-F23269965D52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0347BDAA-AB38-E399-1C8D-C8E8E7B01A25" schemaObject="A601F1E1-4B5F-AF5F-3A5B-3E721395F14E" name="MEMBER_PK">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>KIOSK</sourceObjSchema>
+<sourceObjName>MEMBER_PK</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79306F03-27E5-D8F4-7E85-F23269965D52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

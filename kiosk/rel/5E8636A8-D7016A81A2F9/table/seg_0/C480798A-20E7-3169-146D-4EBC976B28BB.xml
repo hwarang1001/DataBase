@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C480798A-20E7-3169-146D-4EBC976B28BB" schemaObject="A601F1E1-4B5F-AF5F-3A5B-3E721395F14E" name="MENU">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>KIOSK</sourceObjSchema>
+<sourceObjName>MENU</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:49 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MENU_NAME" id="FE49F666-6B3A-3B52-F24C-CE904CCFEE60">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>MENU</sourceObjSchema>
+<sourceObjName>MENU_NAME</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENU_PRICE" id="87A492BD-E752-CA4A-591F-404129BB0ACE">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>MENU</sourceObjSchema>
+<sourceObjName>MENU_PRICE</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENU_INVEN" id="11BE9DC7-BE61-2BFA-A6E4-AE2B9FE83B50">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>MENU</sourceObjSchema>
+<sourceObjName>MENU_INVEN</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAF2F33E-E16F-BED6-04A4-DD1B71198C24" name="MENU_PK">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>KIOSK</sourceObjSchema>
+<sourceObjName>MENU_PK</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:51 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE49F666-6B3A-3B52-F24C-CE904CCFEE60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2547C464-0AC6-880C-4D44-E58FB3EF2140" schemaObject="A601F1E1-4B5F-AF5F-3A5B-3E721395F14E" name="MENU_PK">
+<sourceConnName>로컬-KIOSK</sourceConnName>
+<sourceObjSchema>KIOSK</sourceObjSchema>
+<sourceObjName>MENU_PK</sourceObjName>
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE49F666-6B3A-3B52-F24C-CE904CCFEE60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

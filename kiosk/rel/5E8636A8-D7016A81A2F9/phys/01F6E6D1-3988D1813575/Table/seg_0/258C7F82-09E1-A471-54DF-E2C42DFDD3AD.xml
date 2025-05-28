@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CART" directorySegmentName="seg_0" id="258C7F82-09E1-A471-54DF-E2C42DFDD3AD">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:49 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<schemaObject>A601F1E1-4B5F-AF5F-3A5B-3E721395F14E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FA8B9859-3BFE-9C63-FE20-CACFA5F67D9A</segment>
+<tableSpace>EB70C077-85AE-0879-5A0A-09209BF8DE57</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CART_INDEX" id="476924D1-6AF0-4672-9A82-326983B85736">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENU_NAME" id="6EDF471B-AA72-93A5-12E3-B346558C856E">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CART_TOTAL" id="722370D8-0991-49CF-ACE2-0A62E404DF42">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CART_DATE" id="8177CCA1-4973-F0B4-B5E2-455A7141D5E1">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMBER_ID" id="9E80AB1F-D578-07B8-AB90-DD4890CF7626">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CART_COUNT" id="ED87378E-E83E-1749-BB1B-0DB3A13D4EC3">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CART_PK" id="D8C012E8-397E-DA80-F849-BC8820426162">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:50 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<schemaObject>A601F1E1-4B5F-AF5F-3A5B-3E721395F14E</schemaObject>
+<segment>F453A107-ED0A-39C7-830C-2872C0BD7C43</segment>
+<tableSpace>EB70C077-85AE-0879-5A0A-09209BF8DE57</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MENU_NAME" id="849D18A3-FE2D-A0A2-4FF0-32E208610CA8">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:52 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MEMBER_ID" id="E62694E0-2CC3-4C0C-256C-EB9462902ADD">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:52 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CART_PK" id="62C8BA25-C723-CFD3-812E-C2F5CAD4F6B8">
+<createdBy>khran</createdBy>
+<createdTime>2025-05-22 01:08:51 UTC</createdTime>
+<ownerDesignName>kiosk</ownerDesignName>
+<segment>F453A107-ED0A-39C7-830C-2872C0BD7C43</segment>
+<tableSpace>EB70C077-85AE-0879-5A0A-09209BF8DE57</tableSpace>
+<existingIndex>D8C012E8-397E-DA80-F849-BC8820426162</existingIndex>
+<indexSegment>F453A107-ED0A-39C7-830C-2872C0BD7C43</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
