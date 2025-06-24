@@ -6,4 +6,3 @@ INCREMENT BY 1;
 
 SELECT * FROM CART;
 select * from menu;
-
